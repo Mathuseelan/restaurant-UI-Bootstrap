@@ -1,0 +1,36 @@
+.orangeText {
+  color: #cb9865;
+}
+.orangeBg {
+  background-color: #dfa871;
+}
+header{
+    background-color: rgb(23, 24, 25);
+
+}
+nav{
+  background-color: rgb(39, 40, 41);
+
+}
+#home {
+  background-color: rgb(19, 18, 17);
+}
+#offer {
+  background-color: rgb(14, 13, 12);
+}
+#dishh{
+  background-color: rgb(23, 24, 25);
+
+}
+#menu{
+  background-color: rgb(14, 13, 12);
+
+}
+#specials{
+  background-color: rgb(23, 24, 25);
+
+}
+#contact{
+  background-color: rgb(44, 39, 39);
+
+}

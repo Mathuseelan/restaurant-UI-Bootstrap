@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Love Restaurant</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- header -->
+    <header class="row d-none d-md-block text-secondary py-2">
+      <div class="d-flex justify-content-around align-items-center fs-5">
+        <span>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Love St, Sweet city, India</span>
+        </span>
+
+        <span>
+          <i class="fa-solid fa-phone"></i>
+          <span>+1 123 456 7890</span>
+        </span>
+
+        <span>
+          <i class="fa-solid fa-envelope ms-2"></i>
+          <span>booking@restaurant.com</span>
+        </span>
+      </div>
+    </header>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg p-0 px-lg-5" style="background-color: black">
+      <div class="container-fluid p-2 mt-md-4 d-lg-flex">
+        <a class="navbar-brand fs-1 fw-boldn text-light col-md-6 col-lg-4" href="#">
+          <img
+            class="sticky-top"
+            src="./images/pngegg (1).png"
+            alt="logo"
+            width="100px" />
+          Love<span class="orangeText">Res</span>
+        </a>
+
+        <button
+          class="navbar-toggler col-md-5"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggling">
+          <span class="navbar-toggler-icon col-md-6"></span>
+        </button>
+        <div class="collapse navbar-collapse col-lg-4 p-lg-0 mx-lg-0" id="navbarToggling">
+          <ul class="navbar-nav align-items-center d-md-flex mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-bold text-light px-lg-2"
+                href="#menu"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 fw-bold text-light px-lg-2" href="#dishh"
+                >Dishhh!!</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 fw-bold text-light px-lg-2" href="#specials"
+                >Specials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 fw-bold text-light px-lg-2" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mx-auto col-lg-4 d-lg-flex justify-content-center">
+          <button
+        class="btn btn-outline-light mb-3  orangeText text-uppercase "
+        type="button">
+        <span>Find a table</span>
+      </button>
+        </div> 
+      </div>
+      
+    </nav>
+    <!-- home page -->
+    <div class="container-fluid py-5 text-white" id="home">
+      <div class="position-absolute z-1">
+        <!-- <img class=" z-2 position-absolute" src="./images/images22.png" alt="" /> -->
+        <img class="z-2 position-absolute" src="./images/images23.png" alt="" />
+      </div>
+      <div class="container text-center z-1 position-relative">
+        <h4 class="text-center orangeText fs-2">Delightful experience</h4>
+        <h1 class="my-5">Flavours Inspired by <br />the Seasons.</h1>
+        <h3 class="fs-4 fw-light text-md-primary">
+          Come with family & feel the joy of mouthwatering food
+        </h3>
+        <button class="btn my-5 btn-dark btn-lg">View our menu</button>
+      </div>
+    </div>
+    <!-- offer page -->
+    <div class="container-fluid py-5 text-light position-relative" id="offer">
+      <!-- <div class="animated-images position-absolute z-1">
+          <img class="animated-image-1 z-2 position-absolute top-50" src="./images/images22.png" alt="" />
+          <img class="animated-image-2 z-0 position-absolute" src="./images/images23.png" alt="" />
+        </div> -->
+      <div class="text-center text-light z-1 position-relative">
+        <h5 class="pt-4 text-uppercase fs-5 orangeText">Flavors for royalty</h5>
+
+        <h1 class="my-4">We Offer Top Notch</h1>
+        <p class="fs-4 text-secondary my-4 mx-lg-5 px-lg-5">
+          At <span class="orangeText">LoveRestaurant</span>, we serve
+          exceptional dishes crafted from the freshest ingredients. Enjoy a
+          dining experience where each bite is a testament to our passion for
+          great food and excellent service.
+        </p>
+      </div>
+
+      <div class="container d-md-flex flex-wrap">
+        <!-- card 1 -->
+        <div class="card p-3 bg-dark text-light my-4 col-md-5 col-lg-3 p-lg-4">
+          <img
+            class="card-img-top border border-white"
+            src="./images/offer-image3.jpg"
+            alt="image1" />
+          <div class="card-body text-center">
+            <h2 class="card-title">Breakfast</h2>
+            <button class="btn orangeText">VIEW MENU</button>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card p-3 bg-dark text-light my-4 col-md-5 ms-md-auto col-lg-3 mt-lg-5">
+          <img
+            class="card-img-top border border-white"
+            src="./images/offer-image2.jpg"
+            alt="image2" />
+          <div class="card-body text-center">
+            <h2 class="card-title">Appetizers</h2>
+            <button class="btn orangeText">VIEW MENU</button>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card p-3 bg-dark text-light my-4 col-md-6 mx-md-auto col-lg-3">
+          <img
+            class="card-img-top border border-white"
+            src="./images/offer-image1.jpg"
+            alt="image3" />
+          <div class="card-body text-center">
+            <h2 class="card-title">Drinks</h2>
+            <button class="btn orangeText">VIEW MENU</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signature dish page -->
+    <div class="container-fluid py-5 text-light d-lg-flex" id="dishh">
+      <div class="card col-lg-6">
+        <img
+          class="card-img d-lg-none"
+          src="./images/Sautéed-Shrimp-prev-848x470.jpg"
+          alt="img"
+          width="50%" />
+        <img
+          class="d-none d-lg-block img-fluid border-0"
+          src="./images/pexels-kpaukshtite-1998920.jpg"
+          alt="img" />
+      </div>
+      <div class="d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+        <div class="text-center text-lg-start ps-lg-5 ">
+          <!-- <div class="animated-images">
+              <img
+                class="animated-image-3"
+                src="./images/inviimage.png"
+                alt="img" />
+            </div> -->
+          <h5 class="mt-4 text-center text-uppercase orangeText fs-md-5 text-lg-start">
+            signature dish
+          </h5>
+          <h1 class="my-4 text-center text-lg-start">Prawn Linguine</h1>
+          <p class="fs-4 text-secondary text-center text-lg-start">
+            Succulent prawns tossed with tender linguine in a rich garlic and
+            wine sauce, finished with a touch of cream and Parmesan. A symphony
+            of flavors for a sophisticated dining experience.
+          </p>
+
+          <div
+            class="container text-center d-flex gap-4 justify-content-center align-items-center justify-content-lg-start">
+            <span class="fs-5 tse"> ₹1,899.00</span>
+            <span class="fs-2 fw-bold orangeText"> ₹1,499.00</span>
+          </div>
+          <button class="btn my-4 btn-dark btn-lg">view all menu</button>
+        </div>
+      </div>
+    </div>
+    <!-- menu page  -->
+    <div class="container-fluid py-5 text-light" id="menu">
+      <div class="position-absolute z-1 pt-5">
+        <img
+          class="z-2 position-absolute top-100"
+          src="./images/images22.png"
+          alt="" />
+        <!-- <img class="z-2 position-absolute" src="./images/images23.png" alt="" /> -->
+      </div>
+      <!-- <div class="animated-images">
+          <img class="animated-image-4" src="./images/invibig1.png" alt="" />
+          <img class="animated-image-5" src="./images/invibig2.png" alt="" />
+        </div> -->
+      <div class="text-center z-1 position-relative">
+        <h5 class="pt-4 text-uppercase fs-5 orangeText">special selection</h5>
+        <h1 class="my-4">Delicious Menu</h1>
+      </div>
+      <div
+        class="container d-md-flex flex-wrap justify-content-around z-1 position-relative">
+        <!-- card 1 -->
+        <div class="card my-4 p-2 bg-dark text-light col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-5 col-md-12 col-lg-6">
+              <img
+                class="img-fluid h-100 rounded border border-white"
+                src="./images/butter-chicken.jfif"
+                alt="" />
+            </div>
+            <div class="col-6 col-md-12 col-lg-6">
+              <h3 class="card-title">
+                Butter Chicken
+                <span class="orangeText">₹799.00</span>
+              </h3>
+              <p class="card-text text-secondary">
+                Boneless chicken, ginger-garlic, red chili, turmeric,
+                lemon,kasuri methi.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card my-4 p-2 bg-dark text-light col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-5 col-md-12 col-lg-6">
+              <img
+                class="img-fluid h-100 rounded border border-white"
+                src="./images/chole-bhature.webp"
+                alt="" />
+            </div>
+
+            <div class="col-6 col-md-12 col-lg-6">
+              <h3 class="card-title">
+                Chole Bhature
+                <span class="orangeText">₹399.00</span>
+              </h3>
+              <p class="card-text text-secondary">
+                Chickpeas, onions, tomatoes, ginger-garlic paste, green
+                chilies,cumin seeds.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card my-4 p-2 bg-dark text-light col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-5 col-md-12 col-lg-6">
+              <img
+                class="img-fluid h-100 rounded border border-white"
+                src="./images/joshh.jfif"
+                alt="" />
+            </div>
+
+            <div class="col-6 col-md-12 col-lg-6">
+              <h3 class="card-title">
+                Rogan Josh
+                <span class="orangeText">₹899.00</span>
+              </h3>
+              <p class="card-text text-secondary">
+                Lamb (or goat meat), yogurt, onions, powder,turmeric powder,
+                cumin seeds.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card my-4 p-2 bg-dark text-light col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-5 col-md-12 col-lg-6">
+              <img
+                class="img-fluid h-100 rounded border border-white"
+                src="./images/dosa.jfif"
+                alt="" />
+            </div>
+
+            <div class="col-6 col-md-12 col-lg-6">
+              <h3 class="card-title">
+                Masala Dosa
+                <span class="orangeText">₹899.00</span>
+              </h3>
+              <p class="card-text text-secondary">
+                Rice, urad dal (black gram), fenugreek seeds,Potatoes, onions,
+                mustard seeds.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="card my-4 p-2 bg-dark text-light col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-5 col-md-12 col-lg-6">
+              <img
+                class="img-fluid rounded h-100 border border-white"
+                src="./images/paneer-tikka.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-6 col-md-12 col-lg-6">
+              <h3 class="card-title">
+                Paneer Tikka
+                <span class="orangeText">₹1299.00</span>
+              </h3>
+              <p class="card-text text-secondary">
+                Paneer, yogurt, ginger-garlic paste, red chili powder, turmeric
+                powder.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="card my-4 p-2 bg-dark text-light col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-5 col-md-12 col-lg-6">
+              <img
+                class="img-fluid rounded h-100 border border-white img-fluid h-50"
+                src="./images/muttonbiriayani.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-6 col-md-12 col-lg-6">
+              <h3 class="card-title">
+                Paneer Tikka
+                <span class="orangeText">₹1299.00</span>
+              </h3>
+              <p class="card-text text-secondary">
+                Paneer, yogurt, ginger-garlic paste, red chili powder, turmeric
+                powder.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+      <div class="container text-center">
+        <p class="fs-6">
+          Enjoy our special offering every day from
+          <span class="orangeText">1:00 PM</span> to
+          <span class="orangeText">9:00 PM</span>.
+        </p>
+        <button class="btn my-4 btn-dark">View all menu</button>
+      </div>
+    </div>
+    <!-- speacialities -->
+    <div class="container-fluid py-5 text-light" id="specials">
+      <div class="text-center">
+        <h5 class="pt-4 text-uppercase fs-6 orangeText">special offer</h5>
+        <h1 class="my-4">Best Specialties</h1>
+      </div>
+      <div class="d-md-flex flex-wrap justify-content-around flex-lg-row">
+        <!-- speacialties image 1 -->
+        <div
+          class="d-flex flex-column align-items-center mx-5 col-md-5 mx-md-0 col-lg-3">
+          <img
+            class="img-fluid p-2 mt-4 border border-white"
+            src="./images/greeksalad.jpg"
+            alt="img" />
+          <h2 class="my-3">Greek Salad</h2>
+          <p class="fs-4 px-4 text-center text-secondary m-2">
+            Avocados with crab meat, red onion, crab salad red bell pepper...
+          </p>
+          <span class="fs-3 fw-bold orangeText">₹750.00</span>
+        </div>
+        <!-- speacialties image 2 -->
+
+        <div
+          class="d-flex flex-column align-items-center mx-5 col-md-5 mx-md-0 col-lg-3 mt-lg-5">
+          <img
+            class="img-fluid p-2 mt-4 border border-white"
+            src="./images/tokusen.jpg"
+            alt="asdhf" />
+          <h2 class="my-3">Tokusen Wagyu</h2>
+          <p class="fs-4 px-4 text-center text-secondary m-2">
+            Tomatoes, green bell pepper, sliced cucumber onion, olives...
+          </p>
+          <span class="fs-3 fw-bold orangeText">₹1,050.00 </span>
+        </div>
+        <!-- speacialties image 3 -->
+
+        <div
+          class="d-flex flex-column align-items-center mx-5 col-md-5 mx-md-0 col-lg-3">
+          <img
+            class="img-fluid p-2 mt-4 border border-white"
+            src="./images/butternut.jpg"
+            alt="skdfjgh" />
+          <h2 class="my-3">Butternut Pumpkin</h2>
+          <p class="fs-4 px-4 text-center text-secondary m-2">
+            Avocados with crab meat, red onion, crab salad stuffed bell
+            pepper...
+          </p>
+          <span class="fs-3 fw-bold orangeText">₹890.00</span>
+        </div>
+        <!-- speacialties image 4 -->
+
+        <div
+          class="d-flex flex-column align-items-center mx-5 col-md-5 mx-md-0 col-lg-3 mt-lg-5">
+          <img
+            class="img-fluid p-2 mt-4 border border-white"
+            src="./images/opufish.jpg"
+            alt="dksfg" />
+          <h2 class="my-3">Oyu Fish</h2>
+          <p class="fs-4 px-4 text-center text-secondary m-2">
+            Vegetables, cheeses, tomato sauce, seasonings...
+          </p>
+          <span class="fs-2 fw-bold orangeText">₹999.00</span>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <button class="btn my-4 btn-dark p-md-4">View all menu</button>
+      </div>
+    </div>
+    <!-- Reservation form -->
+    <div class="container-fluid py-5 text-light" id="contact">
+      <!-- <div class="animated-images">
+          <img class="animated-image-4" src="./images/invibig1.png" alt="" />
+          <img class="animated-image-5" src="./images/invibig2.png" alt="" />
+        </div> -->
+      <div class="container d-lg-flex flex-lg-row">
+        <div class="text-center bg-dark text-white p-4 col-lg-6">
+          <h1 class="my-4">Online Reservation</h1>
+          <p class="fs-6">
+            Booking request
+            <span class="orangeText">+88-123-123456</span> or fill out the order
+            form
+          </p>
+          <form class="">
+            <div class="form-group d-lg-flex flex-lg-row">
+              <input
+                class="form-control rounded-0 shadow-none p-3 my-3 me-lg-2"
+                type="text"
+                placeholder="Your Name" />
+              <input
+                class="form-control rounded-0 shadow-none p-3 my-3"
+                type="text"
+                placeholder="Phone Number" />
+            </div>
+            <div class="form-group d-lg-flex flex-lg-row">
+              <select class="form-control rounded-0 shadow-none p-3 my-3 me-lg-2">
+                <option>1 Person</option>
+                <option>2 Person</option>
+                <option>3 Person</option>
+                <option>4 Person</option>
+                <option>5 Person</option>
+                <option>6 Person</option>
+                <option>7 Person</option>
+              </select>
+              <input
+                class="form-control rounded-0 shadow-none p-3 my-3 me-lg-2"
+                type="text"
+                placeholder="DD-MM-YYYY" />
+              <select class="form-control rounded-0 shadow-none p-3 my-3">
+                <option>08 : 00 am</option>
+                <option>09 : 00 am</option>
+                <option>10 : 00 am</option>
+                <option>11 : 00 am</option>
+                <option>12 : 00 pm</option>
+                <option>01 : 00 pm</option>
+                <option>02 : 00 pm</option>
+                <option>03 : 00 pm</option>
+                <option>04 : 00 pm</option>
+                <option>05 : 00 pm</option>
+              </select>
+            </div>
+            <textarea
+              class="form-control rounded-0 shadow-none p-3 my-3"
+              rows="10"
+              placeholder="Message"></textarea>
+            <button type="submit" class="btn my-4 btn-dark border-light">
+              Book a Table
+            </button>
+          </form>
+        </div>
+
+        <!-- contact info -->
+        <div class="container text-center mt-5">
+          <h1 class="p-4 fw-bold">Contact Us</h1>
+          <div class="container py-3">
+            <h3>Booking Request</h3>
+            <span class="orangeText">+88-123-123456</span>
+          </div>
+          <div class="container py-3">
+            <h3>Location</h3>
+            <p class="text-secondary">
+              Love Street, Sweet City,<br />
+              Chennai 9578, India
+            </p>
+          </div>
+          <div class="container py-3">
+            <h3>Lunch Time</h3>
+            <p class="text-secondary">
+              Monday to Sunday <br />
+              11:00 am - 2:30 pm
+            </p>
+          </div>
+          <div class="container py-3">
+            <h3>Dinner Time</h3>
+            <p class="text-secondary">
+              Monday to Sunday <br />
+              05:00 pm - 10:00 pm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid bg-dark text-white text-center p-4">
+      <div class="row">
+        <div class="col">
+          <img src="./images/pngegg (1).png" width="100px" alt="logo" />
+          <p class="fs-4">Love<span class="orangeText">Res</span></p>
+          <a class="text-white" href="#">bookings@restaurant.com </a>
+          <div
+            class="container my-3 d-flex flex-row justify-content-center gap-4">
+            <i class="fa-brands fa-square-x-twitter fs-1"></i>
+            <i class="fa-brands fa-square-instagram fs-1"></i>
+            <i class="fa-brands fa-square-facebook fs-1"></i>
+            <i class="fa-brands fa-square-youtube fs-1"></i>
+          </div>
+
+          <hr />
+          <p>
+            &copy;2024 LoveRES. All Rights Reserved |
+            <a class="text-warning" href="#">thisismsn</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
